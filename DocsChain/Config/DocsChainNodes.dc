@@ -1,0 +1,12 @@
+[
+  {
+    "Description": "Backup-Node",
+    "Endpoint": "http://localhost:5979",
+    "AccessKey": null
+  },
+  {
+    "Description": "Node-10",
+    "Endpoint": "http://localhost:5086",
+    "AccessKey": null
+  }
+]
