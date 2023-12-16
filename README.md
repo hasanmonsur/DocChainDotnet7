@@ -136,14 +136,14 @@ How to restart from the beginning when you are going crazy:
  - Chain File Security
 
 ### "Hidden" Command line switches... 
-`dotnet DocsChain.dll --boot http://localhost:5010` (To boot a node without using the GUI)
-`dotnet DocsChain.dll --create-test-chain true` (boot and add immediately sample documents to the chain)
-`dotnet DocsChain.dll --boot http://localhost:5020` (To boot a node without using the GUI)
-`dotnet DocsChain.dll --create-test-chain true` (boot and add immediately sample documents to the chain)
-`dotnet DocChainWeb.dll --boot http://localhost:5050` (To boot a node without using the GUI)
-`dotnet DocChainWeb.dll --create-test-chain true` (boot and add immediately sample documents to the chain)
-`dotnet DocChainWeb.dll --boot http://localhost:5060` (To boot a node without using the GUI)
-`dotnet DocChainWeb.dll --create-test-chain true` (boot and add immediately sample documents to the chain)
+- `dotnet DocsChain.dll --boot http://localhost:5010` (To boot a node without using the GUI)
+- `dotnet DocsChain.dll --create-test-chain true` (boot and add immediately sample documents to the chain)
+- `dotnet DocsChain.dll --boot http://localhost:5020` (To boot a node without using the GUI)
+- `dotnet DocsChain.dll --create-test-chain true` (boot and add immediately sample documents to the chain)
+- `dotnet DocChainWeb.dll --boot http://localhost:5050` (To boot a node without using the GUI)
+- `dotnet DocChainWeb.dll --create-test-chain true` (boot and add immediately sample documents to the chain)
+- `dotnet DocChainWeb.dll --boot http://localhost:5060` (To boot a node without using the GUI)
+- `dotnet DocChainWeb.dll --create-test-chain true` (boot and add immediately sample documents to the chain)
 
 ## Contributing Guidelines
 	anyone can be contribute in this project and also https://github.com/frontegi/DocsChain.git  
