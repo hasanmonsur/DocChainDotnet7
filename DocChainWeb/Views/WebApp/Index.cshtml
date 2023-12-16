@@ -10,8 +10,8 @@
         <div class="col-md-6"></div>
 
         <div class="col-md-6">
-            <div>Submit a PDF as new chain Node</div>
-            <input type="file" id="formFile" accept=".pdf" name="formFile" class="btn btn-outline-primary">
+            <div>Submit a Document as new chain Node</div>
+            <input type="file" id="formFile" accept=".*" name="formFile" class="btn btn-outline-primary">
 
 
             <button type="submit" class="btn btn-outline-primary"> Upload file</button>
@@ -42,9 +42,9 @@
         <td>@(block.DataSize / 1024) KBytes</td>
         <td>@block.Timestamp</td>
         <td>
-            @if (block.Index != 0 && System.IO.Path.GetExtension(block.Description) == ".pdf")
+            @if (block.Index != 0 && System.IO.Path.GetExtension(block.Description) == ".*")
             {
-                <button type="button" class="btn btn-dark" onclick="ShowPdf('@block.Index')">View PDF</button>
+                <button type="button" class="btn btn-dark" onclick="ShowPdf('@block.Index')">View Doc</button>
             }
         </td>
         <td>
