@@ -83,7 +83,7 @@ If you are a brave and you want to showcase **DocsChain** with **multiple nodes*
  - Clone the Folder as c:\DocsChain5020
  - Open c:\DocsChain5010\appsettings.json and set
 
-     "NodeIdentification": {
+     			"NodeIdentification": {
 	            "Name": "Node 5010",
                 "ListeningPort": "5010",
                 "IPEndpoint": "http://localhost:5010"
@@ -91,11 +91,11 @@ If you are a brave and you want to showcase **DocsChain** with **multiple nodes*
 
  - Open c:\DocsChain5020\appsettings.json and set
 
-     "NodeIdentification": {
-        "Name": "Node 5020",
-        "ListeningPort": "5020",
-        "IPEndpoint": "http://localhost:5020"
-    	}
+     			"NodeIdentification": {
+        			"Name": "Node 5020",
+        			"ListeningPort": "5020",
+        			"IPEndpoint": "http://localhost:5020"
+    			}
 
 ## First Chain
  
